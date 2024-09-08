@@ -1,11 +1,13 @@
 package main
 
 import (
+	"gin_framework/initializers"
+
 	"github.com/gin-gonic/gin"
 )
 
 func init() {
-	initializers.loadEnvFiles()
+	initializers.LoadEnvFiles()
 }
 
 func main() {
